@@ -1,5 +1,11 @@
 body {
-  background:#222;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/657/original/gael-gaborel-orbisterrae-G_MCcG2YqPQ-unsplash.jpg?1708051553);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  
   font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: center;
@@ -9,7 +15,7 @@ body {
 }
 
 a {
-  color: #885df1;
+  color: #0000;
 }
 
 .weather-app {
@@ -18,7 +24,7 @@ a {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
   padding: 2em;
-  background: #000000d0;
+    background: rgba(89, 79, 105, 0.6);
   margin: 1em;
   width: 100%;
   max-width: 420px;
@@ -39,7 +45,8 @@ header {
 }
 
 .search-form-button {
-  background: #222;
+
+  background: #000;
   padding: 15px 30px;
   border: none;
   font-size: 16px;
@@ -65,7 +72,7 @@ main {
 
 .weather-app-details {
   font-size: 16px;
-  color: rgba(39, 33, 66, 0.4);
+  color: #222;
   line-height: 24px;
   font-weight: 500;
 }
