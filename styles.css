@@ -1,33 +1,34 @@
 body {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/657/original/gael-gaborel-orbisterrae-G_MCcG2YqPQ-unsplash.jpg?1708051553);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   background-attachment: fixed;
-  background-size: cover;
-  
-  
+ background-size: cover; 
   font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100dvh;
+  background-position: center;
   margin: 0;
 }
 
 a {
-  color: #0000;
+  color: #5585b5;
 }
 
 .weather-app {
   max-width: 600px;
-  margin: 45px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
   padding: 2em;
-  background: rgba(39, 33, 66, 0.4);
-  margin: 1em;
+  background: rgba(70, 62, 105, 0.4);
+  margin-right: 800px;
   width: 100%;
-  max-width: 420px;
+  max-width: 500px;
+  opacity: 0.9;
+  max-height: 600px;
+  margin-top: 60px;
+  
 }
 
 header {
@@ -42,11 +43,12 @@ header {
   width: 80%;
   font-size: 16px;
   padding: 15px 20px;
+
 }
 
 .search-form-button {
 
-  background: #000;
+  background:#5585b5;
   padding: 15px 30px;
   border: none;
   font-size: 16px;
@@ -66,23 +68,26 @@ main {
 
 .weather-app-city {
   margin: 0;
-  font-size: 38px;
+  font-size: 50px;
   line-height: 48px;
+  color: #38598b;
 }
+
 
 .weather-app-details {
   font-size: 16px;
-  color: #222;
+  color: #f9f7fe;
   line-height: 24px;
   font-weight: 500;
 }
 
 .weather-app-details strong {
-  color: #f65282;
+  color: #5585b5;
 }
 
 .weather-app-temperature-container {
   display: flex;
+
 }
 
 .weather-app-icon {
@@ -94,6 +99,7 @@ main {
   font-size: 88px;
   line-height: 88px;
   font-weight: bold;
+  color: #5585b5;
 }
 
 .weather-app-unit {
@@ -109,7 +115,7 @@ main {
 
 .weather-forecast-date {
   text-align: center;
-  color: #f9f7fe;
+  color:blanchedalmond;
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
@@ -138,5 +144,5 @@ footer {
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 14px;
-  color:#000;
+  color:#f9f7fe;
 }
