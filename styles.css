@@ -1,7 +1,6 @@
 body {
-  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/657/original/gael-gaborel-orbisterrae-G_MCcG2YqPQ-unsplash.jpg?1708051553);
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/115/867/original/willow-xk-IXGj4ueejxM-unsplash.jpg?1708219602);
   background-repeat: no-repeat;
-  background-position: left;
   background-attachment: fixed;
  background-size: cover; 
   font-family: "Roboto", sans-serif;
@@ -13,7 +12,7 @@ body {
 }
 
 a {
-  color: #5585b5;
+  color:#fda403;
 }
 
 .weather-app {
@@ -21,8 +20,7 @@ a {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
   padding: 2em;
-  background: rgba(70, 62, 105, 0.4);
-  margin-right: 800px;
+  background: rgba(94, 82, 146, 0.4);
   width: 100%;
   max-width: 500px;
   opacity: 0.9;
@@ -48,7 +46,7 @@ header {
 
 .search-form-button {
 
-  background:#5585b5;
+  background:#f70776;
   padding: 15px 30px;
   border: none;
   font-size: 16px;
@@ -70,7 +68,7 @@ main {
   margin: 0;
   font-size: 50px;
   line-height: 48px;
-  color: #38598b;
+  color: #f70776;
 }
 
 
@@ -82,7 +80,7 @@ main {
 }
 
 .weather-app-details strong {
-  color: #5585b5;
+  color: #f70776;
 }
 
 .weather-app-temperature-container {
@@ -99,12 +97,13 @@ main {
   font-size: 88px;
   line-height: 88px;
   font-weight: bold;
-  color: #5585b5;
+  color: #f70776;
 }
 
 .weather-app-unit {
   margin-top: 6px;
   font-size: 28px;
+  color:#f70776
 }
 
 .weather-forecast {
@@ -144,5 +143,5 @@ footer {
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 14px;
-  color:#f9f7fe;
+  color:#faf6f8;
 }
